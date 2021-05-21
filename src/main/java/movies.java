@@ -11,6 +11,17 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.JSONObject;
 import org.json.simple.JSONArray;
 
+/**
+ * Idea Behind my Assignment:
+ * The goal was initially to create a hashmap where the keys are Actors and Values are other Actors that the key Actor has worked
+ * with. I then ran into the issue of correctly passing through my hashmap of actors through bfs and was recommended, by a tutor
+ * to try to give all of my actors IDs. So I tried to make another hashmap w the ids as keys, and values as the original hashmap
+ * That is why I included a getKeyfromValue function. I wanted to get the ids and pass that thru bfs.
+ *
+ * I tell you all this just to get an idea of what is going on in the chaotic mess below that I claim as my code.
+ */
+
+
 
 class Graph<T> {
 
